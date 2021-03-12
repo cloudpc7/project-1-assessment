@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
+}
+
+#plus {
+    width: 10vmin;
+    height: 10vmin;
+    background: grey;
+    color: white;
+}
+
+#plus:hover {
+    background: white;
+    color: grey;
+}
+
+#minus {
+    width: 10vmin;
+    height: 10vmin;
+    background: grey;
+    color: white;
+}
+
+#minus:hover {
+    background: white;
+    color: grey;
+}
+
+#total {
+    width: 10vw;
+    height: 10vh;
+}
